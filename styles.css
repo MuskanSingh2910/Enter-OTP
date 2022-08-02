@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');  
+  body, html {  
+       height: 100%;  
+       margin: 0; 
+       border: 80px;
+      
+       font-family: 'Raleway', sans-serif;  
+       font-weight: 200;  
+ }  
+  body {  
+       background-color: #122231;
+         
+       display: flex;  
+       align-items: center;  
+       justify-content: center;  
+       flex-direction: column;  
+      
+    
+} 
+ 
+  .container {
+      
+     
+     background-size: contain;
+     background-color: #263E57;
+     
+     height: 500px;
+     width: 650px;    
+     
+     
+  }
+.digit-group input {  
+       width: 60px;  
+       height: 60px;  
+       background-color: #18182a;  
+       border-style: solid;  
+       border-color: aqua;
+       border-radius: 10px;
+       line-height: 50px;  
+       text-align: center;  
+       font-size: 24px;  
+       font-family: Helvetica, sans-serif;  
+       font-weight: 200;  
+       color: white;  
+       margin: 0 10px; 
+       align-items: center;
+       margin-left: 24.3px; 
+ }  
+  .digit-group .splitter {  
+       padding: 0 5px;  
+       color: white;  
+       font-size: 24px; 
+       
+ }  
+  .prompt {  
+       margin-bottom: 20px;  
+       font-size: 18px;  
+       color: white;  
+       text-align: center;
+       font-family: 'Montserrat';
+font-style: normal;
+
+       
+
+      }   
+
+      .otp {  
+          margin-bottom: 20px; 
+          font-family:Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;  
+          color: rgb(236, 235, 235);  
+          text-align: center;
+         }   
+       
+
+
+ .button{
+      float: left;
+         margin: 0;
+        
+         color: #F6C231;
+         text-decoration: none;
+         font-weight: 800;
+         font-style: normal;
+         text-align: center;
+         padding: 8px 12px;
+
+         letter-spacing: 2px;
+         text-decoration-color: aliceblue;
+         
+ }
+         .btn{
+         
+         align-items: center;
+         position: absolute;
+         width: 180px;
+         height: 100;
+         left: 375px;
+         top: 618px;
+         background-color: rgb(13, 13, 52);
+         color: #ffffff;
+         text-decoration: none;
+         font-weight: 400;
+         letter-spacing: 0.0011em;
+
+         font-size: 14px;
+         line-height: 16px;
+         text-align: center;
+         font-style: normal;
+         padding: 8px 12px;
+         
+         
+         text-decoration-color: aliceblue;
+         background: -o-linear-gradient(177.48deg, #1D3752 -56.77%, #19232E 97.89%);
+         box-shadow: 0px 20px 31px rgba(6, 8, 11, 0.25), inset 0px -6.33333px 6.33333px #18212C, inset 0px 7px 6.33333px #223040;;
+         border-radius: 12px;
+
+         }
+         

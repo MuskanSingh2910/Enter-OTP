@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+  <head>  
+    <style>
+        input[type=submit]
+        {
+            color: white;
+            background-color: rgb(60, 60, 196);
+            border-radius: 4px;
+            
+            
+        }
+    </style>
+   <meta charset="UTF-8" />  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+   <title>OTP Input</title>  
+     <!-- styles -->  
+   <link rel="stylesheet" href="styles.css" />  
+  </head>  
+  <body> 
+  
+    <div class="container">
+   <div class="prompt">  
+       <h1> ENTER OTP</h1> </div>
+
+       <div class="otp">  
+       <br> Enter The <b>OTP</b> Sent To The Registered Mobile Number
+      </div>  
+      <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">  
+      <input type="text" maxlength="1" id="digit-1" name="digit-1" data-next="digit-2" />  
+      <input type="text" maxlength="1" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />  
+      <input type="text" maxlength="1" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />  
+      <input type="text" maxlength="1" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />
+      <input type="text" maxlength="1" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" />  
+      <input type="text" maxlength="1" id="digit-6" name="digit-6" data-next="digit-7" data-previous="digit-5" />
+     <div> 
+      <div style="color:white;font-size: 19px; "><br>&nbsp&nbspDidn't receive the code?</div>
+   
+    <div style="color:#F6C231;font-size: 19px; font-family: 'Montserrat';">
+    <p id="demo"></p>
+      
+
+<script>
+
+
+var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+ 
+  var minutes = Math.floor((distance % (1000 * 60 * 02)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  
+  document.getElementById("demo").innerHTML = "&nbsp&nbsp"
+  + minutes + ". " + seconds;
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</div>
+<a href="#" class="button">RESEND CODE</a>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+   <script src="app.js"></script>
+
+</div> 
+
+ 
+   
+    <br><br><br><br><a href="#" class="btn">VERIFY MOBILE NUMBER</a>
+
+</div>
+</div> 
+
+  </body>  
+ </html>  
+
